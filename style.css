@@ -1,13 +1,17 @@
-body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-}
+<div class="relogio">
 
-#clock {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 5em;
-    color: rgb(76, 151, 1);
-}
+        <h2>horas</h2>
+        <span id="horas">00</span>
+        <span class="tempo">horas</span>
+
+        <h2>minutos</h2>
+        <span id="minutos">00</span>
+        <span class="tempo">minutos</span>
+
+        <h2>segundos</h2>
+        <span id="segundos">00</span>
+        <span class="tempo">segundos</span>
+    </div>
+</body>
+
+</html>
